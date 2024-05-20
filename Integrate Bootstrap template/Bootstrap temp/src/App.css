@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.cnt-box
+{
+    
+     height: auto;
+     text-align: center;
+     
+}
+
+.img-box img
+{
+
+    margin-top: 50px;
+    
+}
+.navbar{
+    background-color: rgb(215, 241, 250);
+    width: 100%;
+  
+    
+}
+.navbar ul 
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar ul li{
+    list-style: none;
+    color: white;
+    font-weight: 500;
+    margin: 10px;
+    line-height: 10px;
+    cursor: pointer;
+}
+
