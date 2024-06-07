@@ -2,8 +2,8 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>
-     <img src="https://mbluxury1.s3.amazonaws.com/2023/06/26104532/Best-contact-page-designs-13.jpg" alt="" />
+    <div style={{width:"100%"}} className='img-box'>
+     <img src="https://cdn.vectorstock.com/i/1000x1000/88/36/contact-us-form-template-for-web-online-shopping-vector-44558836.webp" alt="" />
     </div>
   )
 }

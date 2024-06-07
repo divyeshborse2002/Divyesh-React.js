@@ -28,13 +28,13 @@ const Product = () => {
       </Spinner>
     </div>
   ) : (
-    <div>
+    <div style={{border:"1px solid red"}}>
       <h1 className="text-bg-primary mt-1">PRODUCT</h1>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "9px", margin: "10px auto", padding: "10px auto" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "9px", margin: "20px" }}>
         {productdata.map((el) => (
           <NavLink key={el.id} style={{ textDecoration: "none" }} to={`/description/${el.id}`}>
-            <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={el.image} />
+            <Card style={{ width: '20rem' }}>
+              <Card.Img variant="top" src={el.image} width={100} height={200}  />
               <Card.Body>
                 <Card.Title>{el.title}</Card.Title>
                 <Card.Text>${el.price}</Card.Text>
